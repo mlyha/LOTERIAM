@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'KGRedHands';
+    src: url('KGRedHands.ttf') format('truetype');
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'KGRedHands';
+}
+
+table {
+    background-color: black;
+    margin: 10%;
+    content: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color:#FFCC03;
+}
+
+h2 {
+    text-align: center;
+    color: #7ed957;
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer p {
+    padding: 5px;
+    background-color: #FFCC03;
+    text-align: right;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-size: 250%; 
+        background-position: center; 
+    }
+}
+
+    table .img{
+    width: 50%;
+        
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 100px;
+    }
+
+}
+
